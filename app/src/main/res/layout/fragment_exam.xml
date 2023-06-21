@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.japaneseapp.fragments.ExamFragment">
+
+    <Button
+        android:id="@+id/bt_exam5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button_lesson"
+        android:text="Trắc nghiệm N5"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_exam4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_button_lesson"
+        android:text="Trắc nghiệm N4"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_exam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_button_lesson"
+        android:text="Trắc nghiệm N3"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_exam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_button_lesson"
+        android:text="Trắc nghiệm N2"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bt_exam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_button_lesson"
+        android:text="Trắc nghiệm N1"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</LinearLayout>

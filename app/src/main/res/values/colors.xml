@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal_500</color>
+    <color name="colorPrimaryDark">@color/teal_800</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_800">#00695C</color>
+    <color name="teal_900">#004D40</color>
+    <color name="teal_a_100">#A7FFEB</color>
+    <color name="teal_a_200">#64FFDA</color>
+    <color name="teal_a_400">#1DE9B6</color>
+    <color name="teal_a_700">#00BFA5</color>
+    <color name="black">#202020</color>
+    <color name="black2">#303030</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="yellow_A100">#FFFF8D</color>
+    <color name="green_800">#2E7D32</color>
+    <color name="red_600">#E53935</color>
+    <color name="background_menu">#354960</color>
+    <color name="background_play">#2d3e50</color>
+    <color name="orange_A400">#FF9100</color>
+    <color name="orange_A700">#FF6D00</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="colorFAB1">#2196F3</color>
+
+
+
+</resources>

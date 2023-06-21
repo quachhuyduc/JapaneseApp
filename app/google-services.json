@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1007813930248",
+    "project_id": "japaneseapp-3bc9f",
+    "storage_bucket": "japaneseapp-3bc9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007813930248:android:08b8ead3e722ec867450bd",
+        "android_client_info": {
+          "package_name": "com.example.japaneseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007813930248-h6uaf3ebcdqpn3irikq4l83nca04vss2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK1G-l-MU3h1jC24VKmeQcqtYYYIWAP7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007813930248-h6uaf3ebcdqpn3irikq4l83nca04vss2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

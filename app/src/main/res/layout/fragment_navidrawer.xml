@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#303030"
+                android:orientation="vertical">
+
+  <include
+      android:id="@+id/navigation_header"
+      layout="@layout/layout_header_navigation">
+  </include>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rcvNavi"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@+id/btnLogout"
+      android:layout_below="@+id/navigation_header"
+      android:scrollbars="vertical">
+  </androidx.recyclerview.widget.RecyclerView>
+
+   <Button
+      android:id="@+id/btnLogout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="center_horizontal"
+      android:background="@color/teal_500"
+      android:text=""
+      android:textAllCaps="false"
+      android:textColor="@android:color/white"
+      android:textSize="@dimen/size_20sp"
+      android:textStyle="bold"/>
+</RelativeLayout>

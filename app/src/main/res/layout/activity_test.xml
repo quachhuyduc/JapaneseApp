@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:id="@+id/lineartimer"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#34c4c9">
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="120"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDapAnRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineartimer"
+        android:background="#34c4c9"
+        android:padding="2dp"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvDapAnRun">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewTest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatbuttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_done_question"
+        app:backgroundTint="@color/colorFAB1"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+
+        />
+
+</RelativeLayout>

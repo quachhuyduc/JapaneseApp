@@ -1,0 +1,98 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="top"
+    tools:context="com.example.japaneseapp.fragments.PagerVocabFragment">
+
+  <TextView
+      android:id="@+id/tvMean"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:padding="@dimen/dimen_16dp"
+      android:text="các anh chị, các ông bà, các bạn,
+quý vị"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/size_20sp"/>
+
+  <RadioGroup
+      android:id="@+id/radGrp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/tvMean"
+      android:padding="@dimen/dimen_16dp">
+
+    <RadioButton
+        android:id="@+id/radA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:text="あなた"/>
+
+    <RadioButton
+        android:id="@+id/radB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:text="あなた"/>
+
+    <RadioButton
+        android:id="@+id/radC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:text="あなた"/>
+
+    <RadioButton
+        android:id="@+id/radD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:text="あなた"/>
+  </RadioGroup>
+
+  <TextView
+      android:id="@+id/tvResult"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/radGrp"
+      android:gravity="center_horizontal"
+      android:padding="@dimen/dimen_16dp"
+      android:text="aaaaaaaa"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/dimen_16sp"
+      android:visibility="gone"/>
+
+  <LinearLayout
+      android:id="@+id/linearButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignWithParentIfMissing="true"
+      android:layout_below="@+id/tvResult"
+      android:gravity="center_horizontal"
+      android:orientation="horizontal"
+      android:padding="@dimen/dimen_8dp">
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+  </LinearLayout>
+</RelativeLayout>

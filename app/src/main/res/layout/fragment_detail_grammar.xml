@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            tools:context="com.example.japaneseapp.fragments.DetailGrammarFragment">
+
+  <TextView
+      android:id="@+id/tvContent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/dimen_16dp"
+      android:textSize="@dimen/dimen_16sp"/>
+</ScrollView>

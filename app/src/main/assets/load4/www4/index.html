@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<title>にほんご４</title>
+		<link rel="stylesheet" href="libs/themes/nihongonoki.min.css" />
+		<link rel="stylesheet" href="libs/jquery.mobile.structure-1.1.1.min.css" />
+		<link rel="stylesheet" href="index.html.css" />
+		<script type="text/javascript" src="libs/jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="locale.js"></script>
+        <script type="text/javascript" src="load_data.js"></script>
+		<script type="text/javascript" src="index.html.js"></script>
+		<script type="text/javascript" src="libs/jquery.mobile-1.1.1.min.js"></script>
+	</head>
+	<body>
+		<div id="categoryPage" data-role="page" data-theme="a">
+			<div data-role="header">
+				<h1 id="categoriesHeaderTitle">にほんご４</h1>
+			</div>
+			<div data-role="content" class="content">
+				<ul id="categoryList" data-role="listview" data-theme="a">
+				</ul>
+			</div>
+		<!--/page-->
+		</div>
+		<!-- -->
+		<div id="questionPage" data-role="page" data-theme="a">
+			<div data-role="header">
+				<h1 id="questionHeaderTitle" class="quizHeaderTitle"><span class='quizNum'></span><span class='quizTitle'>にほんご４</span></h1>
+				<a href="index.html" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content" class="content">
+				<div id="divQuestion">
+					<div id="questionText">
+					</div>
+					<div>
+						<p>
+							<a id="questionChoice1" class="questionChoice" href="#answerPage" data-role="button" data="1">&nbsp;</a>
+						</p>
+						<p>
+							<a id="questionChoice2" class="questionChoice" href="#answerPage" data-role="button" data="2">&nbsp;</a>
+						</p>
+						<p>
+							<a id="questionChoice3" class="questionChoice" href="#answerPage" data-role="button" data="3">&nbsp;</a>
+						</p>
+						<p>
+							<a id="questionChoice4" class="questionChoice" href="#answerPage" data-role="button" data="4">&nbsp;</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		<!--/page-->
+		</div>
+        <!-- -->
+        <div id="answerPage" data-role="page" data-theme="a">
+            <div data-role="header">
+                <h1 id="answerHeaderTitle" class="quizHeaderTitle"><span class='quizNum'></span><span class='quizTitle'>にほんご４</span></h1>
+                <a href="index.html" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a>
+            </div>
+            <div data-role="content" class="content">
+                <div id="divAnswer">
+                    <div id="answerMark">
+                        <span id="answerMarkCorrect">
+                            <span id="answerMarkCorrectText">あたり</span>
+                            <img src="res/icon_smile.png" alt=" :)"/>
+                        </span>
+                        <span id="answerMarkWrong">
+                            <span id="answerMarkWrongText">ハズレ</span>
+                            <img src="res/icon_frown.png" alt=" :("/>
+                        </span>
+                    </div>
+                    <div id="answerMsg"></div>
+                    <p>
+                        <a id="answerNext" href="#questionPage" data="next" data-role="button" data-icon="arrow-r" data-iconpos="right">次のクイズ</a>
+                    </p>
+                    <p>
+                        <a id="answerResult" href="#resultPage" data="result" data-role="button" data-icon="arrow-r" data-iconpos="right">成績</a>
+                    </p>
+                    <p>
+                        <a id="answerBack" href="#questionPage" data="back" data-role="button" data-icon="arrow-l" data-iconpos="right">クイズに戻る</a>
+                    </p>
+                </div>
+            </div>
+        <!--/page-->
+        </div>
+        <!-- -->
+        <div id="resultPage" data-role="page" data-theme="a">
+            <div data-role="header">
+                <h1 id="resultHeaderTitle">成績</h1>
+                <a href="index.html" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a>
+            </div>
+            <div data-role="content" class="content">
+                <div style="margin: 25px 0px;">
+                    <span id="resultMsg">
+                    </span>
+                </div>
+                <p>
+                    <a id="resultNext" href="index.html" data-theme="b" data="next" data-role="button">
+                        メニュー
+                    </a>
+                </p>
+                <div id="welcomeInfo">
+                    <span>
+                        <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=579249878&mt=8" data-ajax="false">
+                            次のレベル
+                        </a>
+                        に挑戦しよう！
+                    </span>
+                    <div>
+                        <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=579249878&mt=8" data-ajax="false">
+                            <img src="res/app_nihongo5_round.png" alt="にほんご５" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

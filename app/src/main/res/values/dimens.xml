@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="dimen_5dp">5dp</dimen>
+  <dimen name="size_20sp">20sp</dimen>
+  <dimen name="dimen_10dp">10dp</dimen>
+  <dimen name="dimen_16dp">16dp</dimen>
+  <dimen name="nav_drawer_width">300dp</dimen>
+  <dimen name="dimen_8dp">8dp</dimen>
+  <dimen name="dimen_16sp">16sp</dimen>
+  <dimen name="dimen_18sp">18sp</dimen>
+  <dimen name="chat_input_height">48dp</dimen>
+  <dimen name="dimen_12sp">12sp</dimen>
+  <dimen name="dimen_25sp">25sp</dimen>
+  <dimen name="dimen_48sp">24sp</dimen>
+</resources>
